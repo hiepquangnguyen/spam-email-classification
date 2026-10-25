@@ -1,0 +1,85 @@
+{
+  "timestamp": "20250625_163743",
+  "best_hyperparameters": {
+    "learning_rate": 2e-05,
+    "batch_size": 16,
+    "epochs": 3,
+    "max_length": 256
+  },
+  "cross_validation_results": [
+    {
+      "config_id": 1,
+      "hyperparams": {
+        "learning_rate": 2e-05,
+        "batch_size": 16,
+        "epochs": 3,
+        "max_length": 256
+      },
+      "cv_metrics": {
+        "accuracy": 0.9881125667151869,
+        "precision": 0.988135146779924,
+        "recall": 0.9881125667151869,
+        "f1": 0.9880937517558751,
+        "std_accuracy": 0.0020869299531883776,
+        "std_f1": 0.0021170869496056205
+      }
+    },
+    {
+      "config_id": 2,
+      "hyperparams": {
+        "learning_rate": 5e-05,
+        "batch_size": 16,
+        "epochs": 3,
+        "max_length": 256
+      },
+      "cv_metrics": {
+        "accuracy": 0.987627365356623,
+        "precision": 0.9876672665639618,
+        "recall": 0.987627365356623,
+        "f1": 0.9876349253586926,
+        "std_accuracy": 0.0,
+        "std_f1": 1.899495919413148e-05
+      }
+    },
+    {
+      "config_id": 3,
+      "hyperparams": {
+        "learning_rate": 2e-05,
+        "batch_size": 32,
+        "epochs": 3,
+        "max_length": 256
+      },
+      "cv_metrics": {
+        "accuracy": 0.9835031538088307,
+        "precision": 0.9835447338582756,
+        "recall": 0.9835031538088307,
+        "f1": 0.9834642831411502,
+        "std_accuracy": 0.0013723566835256034,
+        "std_f1": 0.0014228265699073206
+      }
+    },
+    {
+      "config_id": 4,
+      "hyperparams": {
+        "learning_rate": 2e-05,
+        "batch_size": 16,
+        "epochs": 4,
+        "max_length": 256
+      },
+      "cv_metrics": {
+        "accuracy": 0.9864143619602134,
+        "precision": 0.9864179789523565,
+        "recall": 0.9864143619602134,
+        "f1": 0.9864055476819948,
+        "std_accuracy": 0.0012370255976692666,
+        "std_f1": 0.001218824746922948
+      }
+    }
+  ],
+  "final_test_metrics": {
+    "accuracy": 0.9835111542192047,
+    "precision": 0.9835990735622402,
+    "recall": 0.9835111542192047,
+    "f1_score": 0.983416298337747
+  }
+}
